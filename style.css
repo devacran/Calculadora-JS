@@ -2,13 +2,16 @@ body
 {
   font-family: "Bangers", cursive;
   background-color: black;
+  margin: 0px;
 }
 #contenido
 {
   widows: 1000px;
-  height: 550px;
-background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bgimg.jpg);
-  margin: 20px auto;
+  height: 100vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bgimg.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
 
 }
 #calculadora
@@ -26,8 +29,7 @@ background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bg
 #history
 {
     text-align: right;
-    height: 30px;
-border-radius: 10px  ;
+    border-radius: 10px  ;
     font-size: 20px;
     color: #919191;
     background-color: blue;
@@ -37,10 +39,10 @@ border-radius: 10px  ;
 
 #output
 {
-text-align: right;
-    margin: 0 20px;
+    text-align: right;
+    padding: 20px;
     color: white;
-
+    font-size: 60px;
 
 }
 #result
@@ -52,7 +54,6 @@ text-align: right;
 #keyboard
 {
   height: 400px;
-  width: 350px;
   margin: auto;
 
 }
@@ -68,7 +69,7 @@ text-align: right;
  font-weight: bold;
  font-size: 18px;
  background-color: black;
- color: yellow;
+ color: #fb5d00;
 }
 .number
 {
@@ -93,7 +94,7 @@ outline: 0;
 
  button:nth-child(20)
 {
-  background-color: yellow;
+  background-color: #fb5d00;
   color: white;
   font-size: 32px;
 }
