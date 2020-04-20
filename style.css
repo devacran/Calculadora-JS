@@ -1,0 +1,99 @@
+body
+{
+  font-family: "Bangers", cursive;
+  background-color: black;
+}
+#contenido
+{
+  widows: 1000px;
+  height: 550px;
+background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bgimg.jpg);
+  margin: 20px auto;
+
+}
+#calculadora
+{
+    background-color: black;
+    height: auto;
+    width: 340px;
+    margin: auto;
+    top: 25px;
+    position: relative;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2), 0 6px 20px 0 rgba(0,0,0.19) ;
+}
+#history
+{
+    text-align: right;
+    height: 30px;
+border-radius: 10px  ;
+    font-size: 20px;
+    color: #919191;
+    background-color: blue;
+
+
+}
+
+#output
+{
+text-align: right;
+    margin: 0 20px;
+    color: white;
+
+
+}
+#result
+{
+  height: 150px;
+
+
+}
+#keyboard
+{
+  height: 400px;
+  width: 350px;
+  margin: auto;
+
+}
+
+.operator, .number, .empty
+{
+ width: 50px;
+ height: 50px;
+ margin: 15px;
+ float: left;
+ border-radius: 50%;
+ border-width: 0;
+ font-weight: bold;
+ font-size: 18px;
+ background-color: black;
+ color: yellow;
+}
+.number
+{
+  color: white
+}
+.number, .operator
+{
+  cursor: pointer;
+
+}
+
+.operator:active, .number:active
+{
+  font-size: 16px;
+}
+.operator:focus, .number:focus, .empty:focus
+{
+outline: 0;
+}
+
+
+
+ button:nth-child(20)
+{
+  background-color: yellow;
+  color: white;
+  font-size: 32px;
+}
